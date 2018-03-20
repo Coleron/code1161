@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+Doesn't work for some reason. Tried to debug the readme but comes up as an error. This week was hard to perform since i didn't really know what to do. Took some time to learn the ropes but now have to move onto week 3
