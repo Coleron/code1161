@@ -76,7 +76,12 @@ def not_number_rejector(message):
     "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    pass
+    while True:
+        a_number = int(input())
+        if a_number < low or a_number > high:
+            print ("not_number_rejector")
+        else:
+            return a_number
 
 
 def super_asker(low, high):
