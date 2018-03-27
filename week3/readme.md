@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I have tried my best in attempting the questions and with that said EX2 apparently didn't work in the test file. File comes up red.

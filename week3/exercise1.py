@@ -78,7 +78,7 @@ def not_number_rejector(message):
     """
     while True:
         a_number = int(input())
-        if a_number < low or a_number > high:
+        if a_number < 5 or a_number > high:
             print ("not_number_rejector")
         else:
             return a_number
