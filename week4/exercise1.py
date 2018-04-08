@@ -79,7 +79,23 @@ def wordy_pyramid():
     ]
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &minLength=
     """
-    pass
+    url : "http://api.wordnik.com/v4/words.json/randomWords?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5&minLength=10&maxLength=10&limit=1"
+
+    triangle = []
+        
+    for x in range(3,21,2):
+        r = request.get(url)
+        word = r.text
+        print(word)
+        triangle.append(word)
+
+    for y in range(20,3,2):
+        r = request.get(url)
+        word - r.text
+        print(word)
+        triangle.append(word)
+
+    return triangle
 
 
 def wunderground():
