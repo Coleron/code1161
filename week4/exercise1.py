@@ -119,7 +119,7 @@ def wunderground():
     the_json = json.loads(r.text)
     obs = the_json['current_observation']
 
-    return {"state":           None,
+    return {"state":           data["results"][0]["location"],
             "latitude":        None,
             "longitude":       None,
             "local_tz_offset": None}
@@ -138,8 +138,16 @@ def diarist():
     TIP: remember to commit 'lasers.pew' and push it to your repo, otherwise
          the test will have nothing to look at.
     """
-    pass
+    laser_pew = open ("Trispokedovetiles(laser).gcode", "r")
+    count = 0
+    for line in laser_pew
+        if "M10 P1" in line:
+            count - count + 1
+    laser_pew.close()
 
+laser_pew_texter = open("laser.pew", "w")
+laser_pew_texter.write(str(count))
+laser_pew_texter.close()
 
 if __name__ == "__main__":
     functions = [obj for name,obj in inspect.getmembers(sys.modules[__name__]) if (inspect.isfunction(obj))]
