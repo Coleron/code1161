@@ -17,7 +17,7 @@ def greet(name="Towering Timmy"):
     return a string of "Hello" and the name argument.
     E.g. if given as "Towering Timmy" it should return "Hello Towering Timmy"
     """
-    pass
+    return ("Hello" + name)
 
 
 def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
@@ -26,7 +26,13 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     Return an integer.
     TIP: the test will use a different input_list, so don't just return 5
     """
-    pass
+     for x in range(input_list):
+        three_counter = []
+
+        the_list.append(int(x))
+    except ValueError:
+        the_list.append(x)
+        return "three_counter"
 
 
 def fizz_buzz():
@@ -44,8 +50,18 @@ def fizz_buzz():
     if it is. E.g. [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, ...]
     """
     fizzBuzzList = []
-    # your code here
     return fizzBuzzList
+
+    for x in range of [101]:
+        if x % 3 = 0 and x % 5 == 0:
+            print ("FizzBuzz")
+        elif x 3 == 0:
+            print ("Fizz")
+        elif x 5 == 0:
+            print ("Buzz")
+        else:
+            print (x)
+            return "fizzBuzzList"
 
 
 def put_behind_bars(input_string="very naughty boy"):
@@ -57,7 +73,10 @@ def put_behind_bars(input_string="very naughty boy"):
     TIP: conside using the 'join' method in Python.
     TIP: make sure that you have a pipe on both ends of the string.
     """
-    pass
+
+    pipe = "|"
+        test = (imput_string)
+        return print ("|" + pipe.join(text) + "|")
 
 
 def pet_filter(letter="a"):
@@ -70,8 +89,8 @@ def pet_filter(letter="a"):
             "bali cattle", "gayal", "turkey", "goldfish", "rabbit", "koi",
             "canary", "society finch", "fancy mouse", "siamese fighting fish",
             "fancy rat and lab rat", "mink", "red fox", "hedgehog", "guppy"]
-    pass
-
+    
+pets = [items(1, 4, 6, 8, 11, 13, 18, 19, 20, 21, 22, 25, 26, 27, 30, 32, 34, 35, 36)]
 
 def best_letter_for_pets():
     """Return the letter that is present at least once in the most pet names.
@@ -113,7 +132,15 @@ def make_filler_text_dictionary():
     """
     
     import requests
-    return
+    word_dic = {}
+    for number in range(3,0):
+        word_dic[number] = []
+    for word in range(3):
+        url = "http://api.wordnik.com/v4/words.json/randomWords?api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5&minLength=7&maxLength=7&limit=1" + str(number)
+        new_words = request.get(url).text
+    word_dic[number].append(new_words)
+    
+    return word_dic
 
 
 def random_filler_text(number_of_words=200):
