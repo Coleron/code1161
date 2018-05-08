@@ -1,1 +1,4 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+The task of the week was to create an account on Kaggle to learn about Pandas for the upcomming assignment. From what i have learnt in Kaggle is the data set of Pokemon which demonstrates the entry data from each pokemon showcasing their properties to one another.
+
+By changing and manipulating the code in the data entry i was able to create different combinations of data to see which individual pokemon would become the strongest, fastest ect. By showcasing graphs and charts gives ideas for the current assignment.
+My current topic would be about World Religions Data Set being worshiped in a country or a Automobile dataset protraying the maximum amount of produced cars in their lifespan.
