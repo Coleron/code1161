@@ -1,1 +1,3 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+My topic of choice on the Kaggle data set is about "World Religion". I'm thinking about the number of people who worship certain religions and old faiths in modern era. However if it's too large of a scale i might limit the religions to only in Australia.
+
+I'm really slow to adapt on Panda's and still reading the coding methods to apply in Kaggle. Also tbh i didn't really have enough time this week.
